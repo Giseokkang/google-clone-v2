@@ -1,0 +1,41 @@
+.header-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.header-btn .spanLink {
+  margin-top: 8px;
+}
+
+.header-btn .header-btn__link {
+  margin-right: 20px;
+}
+
+.header-btn .header-btn__link :link,
+:visited {
+  text-decoration: none;
+}
+
+.header-btn .spanLink :hover {
+  text-decoration: underline;
+}
+.gFontFather {
+  position: relative;
+}
+
+.gFontFather .gFont {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-self: center;
+  right: 8px;
+  top: 4px;
+}
+
+.header-btn__link i {
+  color: #512da8;
+}
